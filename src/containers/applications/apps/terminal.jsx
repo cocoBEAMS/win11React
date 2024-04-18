@@ -109,7 +109,7 @@ export const WnTerminal = () => {
           }
         } else {
           errp = false;
-          tmpStack.push("The directory name is invalid.");
+          tmpStack.push("The directory name is invalid. yaas.");
         }
 
         if (errp) {
@@ -136,7 +136,7 @@ export const WnTerminal = () => {
       tmpStack = [];
     } else if (type == "color") {
       let color = "#FFFFFF";
-      let background = "#000000";
+      let background = "#301934";
       let re = /^[A-Fa-f0-9]+$/g;
       if (!arg || (arg.length < 3 && re.test(arg))) {
         if (arg.length == 2) {
@@ -240,7 +240,7 @@ export const WnTerminal = () => {
       tmpStack.push("OS [Version 10.0.22000.51]");
     } else if (type == "systeminfo") {
       var dvInfo = [
-        "Host Name:                 BLUE",
+        "Host Name:                 Nexus",
         "OS Name:                   Win11React Dummys Edition",
         "OS Version:                10.0.22000 N/A Build 22000.51",
         "OS Manufacturer:           ",
@@ -272,6 +272,7 @@ export const WnTerminal = () => {
         "VER            Displays the Windows version.",
         "PYTHON         EXECUTE PYTHON CODE.",
         "EVAL           RUNS JavaScript statements.",
+	"yaas           Idk man. Wanted to edit something.",
       ];
 
       for (var i = 0; i < helpArr.length; i++) {
