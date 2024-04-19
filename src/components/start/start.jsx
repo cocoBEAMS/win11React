@@ -120,13 +120,13 @@ export const StartMenu = () => {
             <div className="menuUp">
               <div className="pinnedApps">
                 <div className="stAcbar">
-                  <div className="gpname">Pinned</div>
+                  <div className="gpname">yeeeeee</div>
                   <div
                     className="gpbtn prtclk"
                     onClick={clickDispatch}
                     data-action="STARTALL"
                   >
-                    <div>All apps</div>
+                    <div>ALL APPS</div>
                     <Icon fafa="faChevronRight" width={8} />
                   </div>
                 </div>
@@ -152,9 +152,9 @@ export const StartMenu = () => {
               </div>
               <div className="recApps win11Scroll">
                 <div className="stAcbar">
-                  <div className="gpname">Recommended</div>
+                  <div className="gpname">Recommended for you:</div>
                   <div className="gpbtn none">
-                    <div>More</div>
+                    <div>Extra</div>
                     <Icon fafa="faChevronRight" width={8} />
                   </div>
                 </div>
@@ -184,7 +184,7 @@ export const StartMenu = () => {
           <div className="allCont" data-allapps={start.showAll}>
             <div className="appCont">
               <div className="stAcbar">
-                <div className="gpname">All apps</div>
+                <div className="gpname">ALL APPS</div>
                 <div
                   className="gpbtn prtclk"
                   onClick={clickDispatch}
@@ -328,7 +328,7 @@ export const StartMenu = () => {
                       fill="currentColor"
                     />
                   </svg>
-                  <span>Restart</span>
+                  <span>RESTART da PCCC.</span>
                 </div>
               </div>
               <svg
@@ -406,7 +406,7 @@ export const StartMenu = () => {
                   >
                     <Icon className="blueicon" src="search" ui width={20} />
                     <div className="matchInfo flex-col px-2">
-                      <div className="font-semibold text-xs">Search online</div>
+                      <div className="font-semibold text-xs">Search freaking online</div>
                       <div className="text-xss">Web</div>
                     </div>
                   </div>
@@ -464,7 +464,7 @@ export const StartMenu = () => {
                   data-payload={match.payload ? match.payload : "full"}
                 >
                   <Icon className="blueicon" src="link" ui width={16} />
-                  <div className="text-xss ml-3">Open</div>
+                  <div className="text-xss ml-3">Opennn</div>
                 </div>
               </div>
             ) : null}
