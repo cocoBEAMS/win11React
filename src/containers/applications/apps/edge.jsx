@@ -11,7 +11,7 @@ export const EdgeMenu = () => {
   const dispatch = useDispatch();
 
   const iframes = {
-    "https://www.google.com/webhp?igu=1": "Google",
+    "https://www.google.com/webhp?igu=1": "https://classoco.vercel.app",
     "https://bing.com": "Bing",
     "https://www.youtube.com/embed/m0EHSoZzHEA": "Youtube",
     "https://blueedge.me": "blueedge",
@@ -43,11 +43,11 @@ export const EdgeMenu = () => {
     if (iframe && x == 0) {
       iframe.src = iframe.src;
     } else if (iframe && x == 1) {
-      setHist([url, "https://www.bing.com"]);
+      setHist([url, "https://classoco.vercel.app"]);
       setUrl("https://www.bing.com");
       setTyping(false);
     } else if (iframe && x == 2) {
-      setHist([url, "https://www.google.com/webhp?igu=1"]);
+      setHist([url, "https://classoco.vercel.app"]);
       setUrl("https://www.google.com/webhp?igu=1");
       setTyping(false);
     } else if (iframe && x == 3) {
@@ -125,7 +125,7 @@ export const EdgeMenu = () => {
         <div className="overTool flex">
           <Icon src={wnapp.icon} width={14} margin="0 6px" />
           <div className="btab">
-            <div>New Tab</div>
+            <div>New Tabbbb</div>
             <Icon
               fafa="faTimes"
               click={wnapp.action}
@@ -175,7 +175,7 @@ export const EdgeMenu = () => {
                 onChange={typing}
                 data-payload={3}
                 value={url}
-                placeholder="Type url or a query to search"
+                placeholder="Type a url or something to search. lol."
                 type="text"
               />
               <Icon
@@ -241,7 +241,7 @@ export const EdgeMenu = () => {
               <div className="text-gray-800 text-xs font-medium">
                 If it shows <b>"Refused to connect"</b>, then{" "}
                 <b>that website doesn't allow </b>
-                other websites to show their content. <b>I cannot fix it</b>.
+                other websites that are to show their content. <b>I cannot fix it. Don't be a skibidi. about it.</b>.
               </div>
             </div>
           </div>
