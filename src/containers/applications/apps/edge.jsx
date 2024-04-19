@@ -4,7 +4,7 @@ import { Icon, ToolBar, LazyComponent } from "../../../utils/general";
 
 export const EdgeMenu = () => {
   const wnapp = useSelector((state) => state.apps.edge);
-  const [url, setUrl] = useState("https://classoco.vercel.app");
+  const [url, setUrl] = useState("https://search.brave.com");
   const [ierror, setErr] = useState(true);
   const [isTyping, setTyping] = useState(false);
   const [hist, setHist] = useState(["https://bing.com", "https://bing.com"]);
@@ -118,7 +118,7 @@ export const EdgeMenu = () => {
         app={wnapp.action}
         icon={wnapp.icon}
         size={wnapp.size}
-        name="Browser"
+        name="Nexus Browser."
         float
       />
       <div className="windowScreen flex flex-col">
