@@ -35,7 +35,7 @@ export const WidPane = () => {
             <div className="topWidgets">
               <div className="weatherCont ltShad">
                 <div className="wthtop">
-                  <Icon src="weather" width={18} /> <span>Weather</span>
+                  <Icon src="weather" width={18} /> <span>Ohio Skibidi Weather</span>
                 </div>
                 <div className="wthcity">
                   <Icon fafa="faMapMarkerAlt" width={8} />
@@ -85,7 +85,7 @@ export const WidPane = () => {
               </div>
               <div className="shortCont">
                 <div className="short0 ltShad">
-                  <div className="shName">MONEY | MARKET</div>
+                  <div className="shName">sToNkS</div>
                   <div className="shEntry">
                     <div className="stockName">
                       <Icon src="google" ui width={12} />
@@ -135,7 +135,7 @@ export const WidPane = () => {
                   <div className="shName">
                     <div className="flex">
                       <Icon fafa="faLandmark" width={8} />
-                      &nbsp;ON THIS DAY
+                      &nbsp;NEWS
                     </div>
                     <div>{widget.data.date}</div>
                   </div>
@@ -157,7 +157,7 @@ export const WidPane = () => {
             </div>
             <div className="newsCont">
               <div className="topStories ltShad">
-                <div className="topNewsText">TOP STORIES</div>
+                <div className="topNewsText">TOP TALES</div>
                 <div className="topNewsCont">
                   {[...widget.data.news].splice(0, 4).map((article, i) => {
                     return (
